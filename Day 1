@@ -1,1 +1,35 @@
+Variables
 
+A variable is a named container used to store data that can be used and changed in a program.
+
+1. let
+
+Used when the variable's value may change.
+
+let age = 20;
+age = 21;
+2. const
+
+Used when the variable's value should not be reassigned.
+
+const pi = 3.14;
+3. var
+
+Older way of declaring variables. It is generally avoided in modern JavaScript because let and const are safer and clearer.
+
+var name = "Hamza";
+name = "Ali";
+Declaration
+
+Declaration means creating a variable without giving it a value.
+
+let age;
+Initialization
+
+Initialization means giving a variable its first value.
+
+let age = 20;
+Declaration + Initialization Together
+let age = 20;
+
+Here, let age is the declaration, and = 20 is the initialization.
